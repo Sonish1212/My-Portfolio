@@ -16,7 +16,7 @@ export const projects = [
     excerpt: "NLP + dashboards for tourism reviews",
     description: "A project that ingests visitor reviews and produces actionable insights.",
     tools: ["Python", "NLP", "Tableau"],
-    repo: "#",
+    repo: "https://github.com/Sonish1212/IT-CODE-FAIR-Northern-Territory-Tourism-data-science-project",
     demo: "#",
     image: touristImg  // <-- add this
   },
@@ -26,7 +26,7 @@ export const projects = [
     excerpt: "Regression model to predict house prices",
     description: "Model, feature engineering and deployment notes.",
     tools: ["Python", "Scikit-learn", "Streamlit"],
-    repo: "#",
+    repo: "https://github.com/Sonish1212/Housing-Price-Prediction",
     demo: "#",
     image: houseImg  // <-- add this
   },
@@ -36,7 +36,7 @@ export const projects = [
     excerpt: "Interactive visualizations for diabetes factors",
     description: "Interactive dashboards analyzing diabetes-related patterns.",
     tools: ["Python", "Streamlit", "Matplotlib", "Seaborn"],
-    repo: "#",
+    repo: "https://github.com/Sonish1212/Diabetes-visualization",
     demo: "#",
     image: diabetesImg  // <-- add this
   },
@@ -46,7 +46,7 @@ export const projects = [
     excerpt: "Data analysis & visualization for avian influenza outbreaks",
     description: "Analyzed outbreak patterns, visualized spread over time and regions, and explored correlations with environmental factors.",
     tools: ["Python", "Pandas", "Matplotlib", "Seaborn"],
-    repo: "#",
+    repo: "https://github.com/Sonish1212/Data-analytics-avian-influenza",
     demo: "#",
     image: avianImg,
   },
@@ -74,7 +74,7 @@ This project explores how traditional Machine Learning (ML) models and Deep Lear
 - ANN: Accuracy ~96.5%
   `,
   tools: ["Python", "Scikit-learn", "Pandas", "NumPy", "TensorFlow"],
-  repo: "#",
+  repo: "https://github.com/Sonish1212/Machine-Learning-vs-Deep-Learning-Predicting-FIFA-21-Player-Tiers",
   demo: "#",
   image: fifaImg,
 }
