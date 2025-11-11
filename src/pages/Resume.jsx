@@ -11,7 +11,7 @@ export default function Resume() {
           <p className="mt-2 text-gray-600">Sonish Khanal — Master of Data Science</p>
         </div>
         <a 
-          href="/public/resume.docx" 
+          href="/resume.docx" 
           download 
           className="mt-4 md:mt-0 px-6 py-2 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition"
         >
