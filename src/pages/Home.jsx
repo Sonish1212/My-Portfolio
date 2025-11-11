@@ -1,6 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import profilePic from '../assets/me.jpg';
+import { Link } from "react-router-dom";
+
 
 
 export default function Home() {
@@ -20,18 +22,18 @@ export default function Home() {
             I build data-driven visualizations and machine learning projects. I’m learning and applying React, Tailwind and interactive visual tools to bring insights to life.
           </p>
           <div className="mt-6 flex gap-4 flex-wrap">
-            <a 
-              href="/resume" 
-              className="bg-primary text-white px-6 py-3 rounded-xl shadow hover:bg-primary/90 transition"
-            >
+            <Link 
+              to="/resume" 
+              className="bg-primary text-white px-6 py-3 rounded-xl shadow hover:bg-primary/90 transition">
               Download Resume
-            </a>
-            <a 
-              href="/projects" 
-              className="bg-gray-100 text-slate px-6 py-3 rounded-xl shadow hover:bg-gray-200 transition"
-            >
+            </Link>
+
+            <Link 
+              to="/projects" 
+              className="bg-gray-100 text-slate px-6 py-3 rounded-xl shadow hover:bg-gray-200 transition">
               See Projects
-            </a>
+            </Link>
+
           </div>
         </div>
         <div className="flex items-center justify-center">
